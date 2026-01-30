@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:slnt,wght@-6,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:slnt,wght@-6,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(135deg, #000000, #0a0018, #051122);
+  background-attachment: fixed;
+  color: white;
+
+}
+@theme{
+--font-roboto: Roboto, "sans-serif";
+--font-bitcount: Bitcount Prop Single, "sans-serif"
+}
